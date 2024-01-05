@@ -146,3 +146,68 @@ main {
   font-size: 30px;
   font-weight: 700;
 }
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-resume-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-resume-institute,
+.resume-item-description {
+  color: #757575;
+}
+
+.resume-container hr {
+  margin: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Footer Related Style */
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  margin-top: 10px;
+  padding: 130px 200px;
+}
+
+.footer-column {
+  width: 50%;
+  text-align: left;
+}
+
+.footer-title,
+.footer-description {
+  text-align: left;
+}
+
+.social-links a {
+  margin-right: 25px;
+}
+
+.contact input[type='text'],
+.contact input[type='email'],
+textarea {
+  text-align: left;
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 16px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
